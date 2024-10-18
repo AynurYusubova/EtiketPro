@@ -1,0 +1,46 @@
+// header start
+#header {
+    margin: 2px 0;
+
+    .img-box {
+        width: 40%;
+    }
+
+    ul {
+        width: 50%;
+
+        li {
+            padding: 15px 17px;
+
+            a {
+                text-decoration: none;
+                color: black;
+                font-family: "Poppins", sans-serif;
+                font-weight: 500;
+                font-size: 20px;
+                position: relative;
+
+                &:hover {
+                    &::after {
+                        opacity: 1;
+                        width: 100%;
+                    }
+                }
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    width: 0%;
+                    height: 2px;
+                    background-color: yellow;
+                    left: 0;
+                    bottom: -15%;
+                    opacity: 0;
+                    transition: 1s;
+                }
+            }
+        }
+    }
+}
+
+// header  end

@@ -1,0 +1,22 @@
+#about{
+    height: 60vh;
+    margin: 5rem 0;
+    .img-box{
+        margin:0 2rem ;
+    }
+    .text{
+        margin-top:-19px;
+        font-family:"Poppins";
+        h1{
+            color: yellow;
+            font-weight: 500;
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+        p{
+            color: #636363;
+            font-weight: 500;
+            font-size: 19px;
+        }
+    }
+}

@@ -1,0 +1,125 @@
+#header {
+  margin: 2px 0;
+}
+#header .img-box {
+  width: 40%;
+}
+#header ul {
+  width: 50%;
+}
+#header ul li {
+  padding: 15px 17px;
+}
+#header ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  position: relative;
+}
+#header ul li a:hover::after {
+  opacity: 1;
+  width: 100%;
+}
+#header ul li a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: yellow;
+  left: 0;
+  bottom: -15%;
+  opacity: 0;
+  transition: 1s;
+}
+
+#slider {
+  height: 100vh;
+  background-image: url(https://etiketpro.az/media/home_sliders/42342342342342342342.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#slider .box {
+  padding: 20%;
+  text-align: center;
+}
+#slider .box h1 {
+  color: white;
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+#about {
+  height: 60vh;
+  margin: 5rem 0;
+}
+#about .img-box {
+  margin: 0 2rem;
+}
+#about .text {
+  margin-top: -19px;
+  font-family: "Poppins";
+}
+#about .text h1 {
+  color: yellow;
+  font-weight: 500;
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+#about .text p {
+  color: #636363;
+  font-weight: 500;
+  font-size: 19px;
+}
+
+#product {
+  height: 70vh;
+  margin: 20px 0;
+}
+#product .box h1 {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  position: relative;
+}
+#product .box h1::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 35%;
+  width: 31%;
+  height: 3px;
+  background-color: yellow;
+}
+#product .img-boxes img {
+  margin: 0 7px;
+}
+
+#project {
+  height: 80vh;
+}
+#project .text h1 {
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+#project .text h1::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 27%;
+  width: 46%;
+  height: 3px;
+  background-color: yellow;
+}
+#project .img-boxes img {
+  margin: 0 15px;
+  height: 350px;
+}/*# sourceMappingURL=etiket.css.map */

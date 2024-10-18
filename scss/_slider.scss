@@ -1,0 +1,16 @@
+#slider{
+    height: 100vh;
+    background-image: url(https://etiketpro.az/media/home_sliders/42342342342342342342.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    .box{
+        padding: 20%;
+        text-align: center;
+        h1{
+            color: white;
+            font-family: "Montserrat";
+            font-weight: 900;
+            font-size: 4rem;       
+        }
+    }
+}
